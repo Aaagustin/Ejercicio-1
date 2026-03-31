@@ -1,0 +1,17 @@
+POST http://localhost:8080/platos
+Content-Type: application/json
+
+{
+  "numero": 1,
+  "nombre": "Milanesa con papas",
+  "precio": 8500,
+  "descripcion": "Milanesa de carne con papas fritas"
+}
+
+###
+
+GET http://localhost:8080/platos
+
+###
+
+GET http://localhost:8080/platos/1
